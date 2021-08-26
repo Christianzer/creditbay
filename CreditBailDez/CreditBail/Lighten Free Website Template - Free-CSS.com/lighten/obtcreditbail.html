@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Gestion credit bail mobilier</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css2/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css2/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images2/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css2/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<!-- body -->
+<body class="main-layout">
+<div class="main">
+
+    <div class="container">
+        <form method="POST" class="appointment-form" id="appointment-form">
+            <h2>Information Personnel</h2>
+            <div class="form-group-1">
+                <input type="text" name="title" id="Nom" placeholder="Nom" required />
+                <input type="text" name="name" id="Prenom" placeholder="Prenom" required />
+                <input type="text" name="title" id="Date_de_naissance" placeholder="Date de naissance" required />
+                <input type="text" name="name" id="Adress" placeholder="Adresse" required />
+                <input type="email" name="email" id="email" placeholder="Email" required />
+                <input type="text" name="name" id="Type_de_piece" placeholder="Type de pièce" required />
+                <div class="select-list">
+                    <select name="course_type" id="course_type" >
+                        <option slected value="">Situation matrimoniale</option>
+                        <option  value="">Celibataire</option>
+                        <option value="society">Marié/e</option>
+                        <option value="language">Veuf/ve</option>
+                    </select>
+                </div>
+                <div class="select-list">
+                    <select name="course_type" id="coursetype" >
+                        <option slected value="">Sex</option>
+                        <option  value="masculin">Masculin</option>
+                        <option value="feminin">Feminin</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <a  class=" btn btn-primary rounded  px-3" href="obtcreditbail2.html">SUIVANT</a>
+    </div>
+
+</div>
+
+<!-- JS -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="js2/main.js"></script>
+<!-- end loader -->
+<!-- header -->
+<!-- header inner -->
+
+    <!-- end header inner -->
+    <!-- end header -->
+
+
+
+
+    <!-- CHOOSE  -->
+
+    <!-- end CHOOSE -->
+
+    <!--  footer -->
+
+
+
+
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".fancybox").fancybox({
+                openEffect: "none",
+                closeEffect: "none"
+            });
+
+            $(".zoom").hover(function(){
+
+                $(this).addClass('transition');
+            }, function(){
+
+                $(this).removeClass('transition');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+package com.mycompany.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ConnecterService2 {
+
+}
